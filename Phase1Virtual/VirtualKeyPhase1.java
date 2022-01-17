@@ -137,7 +137,7 @@ package Phase1Virtual;
 			Scanner sf = new Scanner(System.in);
 	        System.out.print("Enter the file name to open : ");
 	        String name = sf.nextLine();
-	        File directory = new File("D://Java Files//AakashPhase1//");
+	        File directory = new File("C:\\Users\\Pooja\\Desktop\\pooja");
 	        String[] flist = directory.list();
 	        int flag = 0;
 	        if (flist == null) {
